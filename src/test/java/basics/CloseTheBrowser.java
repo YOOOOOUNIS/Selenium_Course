@@ -15,4 +15,5 @@ public class CloseTheBrowser {
         driver.quit(); // close all windows and tabs
         //hi
     }
+
 }
