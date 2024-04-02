@@ -13,7 +13,6 @@ public class CloseTheBrowser {
         System.out.println("The name of title is " + title);
 
         driver.quit(); // close all windows and tabs
-        //hippح
     }
 
 }
