@@ -10,6 +10,6 @@ public class checkBoxAndRadioButton {
     driver.get("https://the-internet.herokuapp.com/checkboxes");
     driver.manage().window().maximize();
     driver.findElement(By.xpath("//*[@id=\"__nuxt\"]/div/div/div[1]/div/ul[2]/li[2]/a")).click();
-
+    driver.quit();
 }
 }
