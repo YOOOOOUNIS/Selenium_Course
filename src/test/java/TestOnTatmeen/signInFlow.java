@@ -16,5 +16,6 @@ public class signInFlow {
         driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("finaltest@consultant.com");
         driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Test@1234");
         driver.findElement(By.xpath("//*[@id=\"__nuxt\"]/div/div/div[2]/div/div/div/form/button")).click();
+//        driver.quit();
     }
 }
